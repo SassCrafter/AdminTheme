@@ -1,0 +1,23 @@
+/*!
+* HQ Admin Theme
+* Author: Dima Prohorenko
+*/
+
+// Bootstrap
+@import "_vars.scss";
+@import "_customize-bootstrap.scss";
+@import "~bootstrap/scss/bootstrap";
+
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+
+// App Layout
+
+@import './app/components/_app.scss';
+@import './app/components/_app-header.scss';
+@import './app/components/_app-sidebar.scss';
+@import './app/components/_app-sidebar-mini.scss';
+@import './app/components/_app-title.scss';
